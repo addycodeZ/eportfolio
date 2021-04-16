@@ -1,0 +1,203 @@
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #003087;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 20px;
+  width: 20%;
+  height: 80px;
+}
+
+.tablink:hover {
+  background-color: #5B6770;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  max-width: 1400px;
+  padding: 20px 180px;
+  padding-top: 80px;
+  height: 100%;
+}
+
+img{
+    max-width: 1400px;
+    height: auto;
+    display: block;
+    width: 100%;
+}
+
+figure {
+    border: none;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: #FFFFFF;
+    color: #000000;
+    font: 'Cantarell', sans-serif;
+    font-size: 18px;
+    padding: 3px;
+    text-align: center;
+}
+
+h1 {
+  text-align: left;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 60px;
+  line-height: 60px;
+  color: #003087;
+
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Sanchez', serif;
+    font-size: 40px;
+    line-height: 40px;
+    color: #00A3E0;
+    margin-top: 1em;
+}
+
+h3 {
+    text-align: left;
+    font-family: 'Cantarell', sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    color: #BA0C2F;
+}
+
+p {
+    text-align: left;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-top: 20px;
+}
+
+li, p {
+  line-height: 1.5;
+  font-size: 20px;
+  font-family:'Martel Sans', sans-serif ;
+}
+
+.center {
+  margin: auto;
+  width: 70%;
+  border: 3px solid white;
+  padding: 10px;
+}
+
+.girl {
+    width: 400px;
+    clip-path: circle();
+}
+
+nav ul {
+  display: flex;
+  margin: 0 -50px;
+}
+nav li {
+    margin: 0 10px;
+    list-style-type: none;
+}
+.push-right {
+  margin-left: auto;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.content {
+  width: 100%;
+  margin: auto;
+}
+.content-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.columns-content {
+  width: 30%;
+  margin: 0, auto;
+}
+
+.content h2 {
+  min-height: 5em;
+  font-size: 30px; 
+}
+
+.examples {
+  width: 100%;
+  margin: auto;
+}
+.examples-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.examples-content {
+  width: 30%;
+  margin: 0, auto;
+}
+
+.examples-content img {
+  max-width: 100%;
+}
+
+.examples h2 {
+  min-height: 5em;
+}
+
+
+.fa-instagram {
+  color: #c32aa3;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-linkedin {
+  color: #2867B2;
+}
+
+.fa-twitter {
+  color: #1da1f2;
+}
+
+.fa-youtube {
+  color: #ff0000;
+}
+
+
+#Introduction {background-color:#FFFFFF;}
+#Home {background-color:#FFFFFF;}
+#Project {background-color:#FFFFFF;}
+#Learning {background-color:#FFFFFF;}
+#Journey {background-color:#FFFFFF;}
